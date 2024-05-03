@@ -1,0 +1,6 @@
+[2024-05-03 22:40:19] Função criar_cliente                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
+[2024-05-03 22:40:36] Função exibir_extrato                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
+[2024-05-03 22:41:14] Função criar_cliente                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
+[2024-05-03 22:42:10] Função depositar                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
+[2024-05-03 22:42:35] Função depositar                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
+[2024-05-03 22:43:20] Função depositar                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
