@@ -37,7 +37,7 @@ class Cliente:
     def realizar_transacao(self, conta, transacao):
         if len(conta.historico.transacoes_do_dia()) >= 10:
             print("\n@@@ Você excedeu o número de \
-                transações permitidas para hoje! @@@")
+                transações diária! @@@")
             return
 
         transacao.registrar(conta)
@@ -169,12 +169,13 @@ class Historico:
 
     def adicionar_transacao(self, transacao):
         self._transacoes.append(
-            {
-                "tipo": transacao.__class__.__name__,
-                "valor": transacao.valor,
-                "data": datetime.utcnow().strftime("%d-%m-%Y %H:%M:%S"),
-            }
-        )
+        {
+            "tipo": transacao.__class__.__name__,
+            "valor": transacao.valor,
+            "data": datetime.now().strftime("%d-%m-%Y %H:%M:%S"),  # Corrigido aqui
+        }
+    )
+
 
     def gerar_relatorio(self, tipo_transacao=None):
         for transacao in self._transacoes:
@@ -185,7 +186,7 @@ class Historico:
                 yield transacao
 
     def transacoes_do_dia(self):
-        data_atual = datetime.utcnow().date()
+        data_atual = datetime.now().date()
         transacoes = []
         for transacao in self._transacoes:
             data_transacao = datetime.strptime(
@@ -240,7 +241,7 @@ class Deposito(Transacao):
 def log_transacao(func):
     def envelope(*args, **kwargs):
         resultado = func(*args, **kwargs)
-        data_hora = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+        data_hora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         with open(f"{ROOT_PATH}/log.txt", "a") as arquivo:
             arquivo.write(

@@ -4,3 +4,37 @@
 [2024-05-03 22:42:10] Função depositar                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
 [2024-05-03 22:42:35] Função depositar                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
 [2024-05-03 22:43:20] Função depositar                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
+[2024-05-03 22:57:15] Função criar_conta                     executada com argumentos (1, [], []) e {}. Retornou None
+[2024-05-03 22:57:30] Função criar_conta                     executada com argumentos (1, [], []) e {}. Retornou None
+[2024-05-06 19:10:38] Função criar_conta                     executada com argumentos (1, [], []) e {}. Retornou None
+[2024-05-06 19:11:41] Função criar_cliente                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
+[2024-05-06 19:11:59] Função criar_conta                     executada com argumentos (1, [<PessoaFisica: (14437354770)>], [<ContaCorrente: ('0001',             '1', 'Wellington Andrade)>]) e {}. Retornou None
+[2024-05-06 19:13:40] Função criar_conta                     executada com argumentos (1, [], []) e {}. Retornou None
+[2024-05-06 19:17:23] Função criar_conta                     executada com argumentos (1, [], []) e {}. Retornou None
+[2024-05-06 19:18:49] Função criar_conta                     executada com argumentos (1, [], []) e {}. Retornou None
+[2024-05-06 19:21:03] Função criar_cliente                     executada com argumentos ([<PessoaFisica: (14437354770)>],) e {}. Retornou None
+[2024-05-06 19:21:20] Função criar_conta                     executada com argumentos (1, [<PessoaFisica: (14437354770)>], []) e {}. Retornou None
+[2024-05-06 19:21:39] Função criar_conta                     executada com argumentos (1, [<PessoaFisica: (14437354770)>], [<ContaCorrente: ('0001',             '1', 'well andra)>]) e {}. Retornou None
+[2024-05-06 19:31:15] Função criar_cliente                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 19:32:29] Função criar_conta                     executada com argumentos (1, [<PessoaFisica: (144)>], []) e {}. Retornou None
+[2024-05-06 19:32:40] Função criar_conta                     executada com argumentos (1, [<PessoaFisica: (144)>], [<ContaCorrente: ('0001',             '1', 'wel a)>]) e {}. Retornou None
+[2024-05-06 16:35:04] Função criar_conta                     executada com argumentos (1, [], []) e {}. Retornou None
+[2024-05-06 16:35:25] Função criar_cliente                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:35:37] Função criar_conta                     executada com argumentos (1, [<PessoaFisica: (144)>], [<ContaCorrente: ('0001',             '1', 'wa)>]) e {}. Retornou None
+[2024-05-06 16:35:41] Função exibir_extrato                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:41:30] Função criar_cliente                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:41:34] Função criar_conta                     executada com argumentos (1, [<PessoaFisica: (144)>], [<ContaCorrente: ('0001',             '1', 'we)>]) e {}. Retornou None
+[2024-05-06 16:41:44] Função depositar                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:42:51] Função depositar                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:42:57] Função exibir_extrato                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:43:34] Função sacar                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:43:54] Função sacar                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:44:00] Função exibir_extrato                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:44:11] Função sacar                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:44:19] Função sacar                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:44:46] Função sacar                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:44:51] Função exibir_extrato                     executada com argumentos ([<PessoaFisica: (144)>],) e {}. Retornou None
+[2024-05-06 16:45:16] Função criar_cliente                     executada com argumentos ([<PessoaFisica: (144)>, <PessoaFisica: (069)>],) e {}. Retornou None
+[2024-05-06 16:45:23] Função criar_conta                     executada com argumentos (2, [<PessoaFisica: (144)>, <PessoaFisica: (069)>], [<ContaCorrente: ('0001',             '1', 'we)>, <ContaCorrente: ('0001',             '2', 'qa)>]) e {}. Retornou None
+[2024-05-06 16:45:53] Função depositar                     executada com argumentos ([<PessoaFisica: (144)>, <PessoaFisica: (069)>],) e {}. Retornou None
+[2024-05-06 16:46:16] Função sacar                     executada com argumentos ([<PessoaFisica: (144)>, <PessoaFisica: (069)>],) e {}. Retornou None
